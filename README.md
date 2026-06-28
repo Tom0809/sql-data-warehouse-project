@@ -43,18 +43,36 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 The data architecture for this project follows the Medallion Architecture with Bronze, Silver, and Gold layers.
 
-```mermaid
-flowchart LR
-    A[Source Systems<br>CRM CSV Files<br>ERP CSV Files] --> B[Bronze Layer<br>Raw Data Tables]
+### Bronze Layer
 
-    B --> C[Silver Layer<br>Cleaned and Standardized Tables]
+Stores raw data as-is from the source systems.  
+Data is ingested from CSV files into SQL Server tables.
 
-    C --> D[Gold Layer<br>Business-Ready Views<br>Star Schema]
+### Silver Layer
 
-    D --> E[BI & Reporting]
-    D --> F[Ad-hoc SQL Queries]
-    D --> G[Machine Learning]
----
+Cleans, standardizes, and transforms the raw data.  
+This layer includes:
+
+- Data cleansing
+- Data standardization
+- Data normalization
+- Derived columns
+- Data enrichment
+
+### Gold Layer
+
+Contains business-ready data modeled into a star schema for analytics and reporting.  
+The Gold Layer includes:
+
+- `gold.dim_customers`
+- `gold.dim_products`
+- `gold.fact_sales`
+
+The Gold Layer can be used for:
+
+- BI reporting
+- Ad-hoc SQL analysis
+- Dashboard creation
 
 ## 🛡️ License
 
