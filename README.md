@@ -39,6 +39,22 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 ---
+## 🏗️ Data Architecture
+
+The data architecture for this project follows the Medallion Architecture with Bronze, Silver, and Gold layers.
+
+```mermaid
+flowchart LR
+    A[Source Systems<br>CRM CSV Files<br>ERP CSV Files] --> B[Bronze Layer<br>Raw Data Tables]
+
+    B --> C[Silver Layer<br>Cleaned and Standardized Tables]
+
+    C --> D[Gold Layer<br>Business-Ready Views<br>Star Schema]
+
+    D --> E[BI & Reporting]
+    D --> F[Ad-hoc SQL Queries]
+    D --> G[Machine Learning]
+---
 
 ## 🛡️ License
 
