@@ -74,6 +74,16 @@ The Gold Layer can be used for:
 - Ad-hoc SQL analysis
 - Dashboard creation
 
+## 📊 Tableau Dashboard
+
+An interactive Tableau dashboard was created on top of the Gold Layer to visualize customer behavior, product performance, and sales trends.
+
+The dashboard connects to the business-ready tables/views from the Gold Layer and provides insights for sales and management reporting.
+
+[View the Tableau dashboard documentation](dashboards/tableau/README.md)
+
+[View the interactive dashboard on Tableau Public](PASTE_YOUR_TABLEAU_PUBLIC_LINK_HERE)
+
 ## 🛡️ License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
