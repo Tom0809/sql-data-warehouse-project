@@ -76,13 +76,20 @@ The Gold Layer can be used for:
 
 ## 📊 Tableau Dashboard
 
-An interactive Tableau dashboard was created on top of the Gold Layer to visualize customer behavior, product performance, and sales trends.
+An interactive Tableau dashboard was created on top of the Gold Layer to visualize sales performance, customer behavior, market distribution, and product performance.
 
-The dashboard connects to the business-ready tables/views from the Gold Layer and provides insights for sales and management reporting.
+The dashboard connects to the business-ready fact and dimension tables from the Gold Layer and translates the data warehouse outputs into actionable business insights.
 
-[View the Tableau dashboard documentation](dashboards/tableau/README.md)
+The Tableau workbook includes two dashboard pages:
 
-[View the interactive dashboard on Tableau Public](PASTE_YOUR_TABLEAU_PUBLIC_LINK_HERE)
+1. **Sales Performance Overview**  
+   Executive-level KPI dashboard showing total sales, total orders, average order value, monthly sales momentum, 3-month moving average, and top revenue-driving subcategories.
+
+2. **Customer & Product Performance Analysis**  
+   Deep-dive dashboard analyzing customer value segments, country-level revenue contribution, non-bike product performance, and top product revenue ranking.
+
+[View the Tableau dashboard documentation](dashboard/tableau/README.md)
+
 
 ## 🛡️ License
 
