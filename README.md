@@ -99,4 +99,5 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 🌟 About Me
 
-Hi there! I'm **Huaxi Zeng**. I’m UBC student major in statistics and exploring SQL and enjoy with data!
+Hi there! I'm **Huaxi Zeng**, a UBC Statistics student interested in data analytics, business intelligence, and data engineering.  
+I enjoy working with SQL, Tableau, and data visualization to transform raw data into clear, actionable business insights.
