@@ -46,6 +46,8 @@ Main components:
 - Non-Bike Product Performance Matrix
 - Top Products by Revenue with current vs. previous year comparison
 
+![Customer & Product Performance Analysis](screenshots/customer_product_analysis.png)
+
 ## Key Insights
 
 - Selected-year sales increased strongly compared with the previous year.
